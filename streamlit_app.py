@@ -25,7 +25,7 @@ st.title('Youtube Summary Generator')
 st.subheader(
     'Works well on videos having length ~10 mins')
 
-video_link = st.text_area("Enter Youtube Link 😁")
+video_link = st.text_area("Enter Youtube Link 😁 - Made with ♥ by Hitesh")
 
 
 if st.button('Generate Summary'):
