@@ -3,9 +3,8 @@ import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 
-OPENAIKEY = "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"
 
-openai.api_key = OPENAIKEY
+openai.api_key = "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"
 
 def BasicGeneration(userPrompt):
     completion = openai.ChatCompletion.create(
