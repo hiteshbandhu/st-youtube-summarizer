@@ -4,7 +4,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def BasicGeneration(userPrompt):
     completion = openai.ChatCompletion.create(
