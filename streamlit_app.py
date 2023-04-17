@@ -4,7 +4,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 import os
 
-openai.api_key = os.environ.get('OPENAIKEY')
+openai.api_key = st.secrets["OPENAIKEY"])
 
 def BasicGeneration(userPrompt):
     completion = openai.ChatCompletion.create(
