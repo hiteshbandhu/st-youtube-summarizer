@@ -2,9 +2,9 @@ import openai
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
+import os
 
-
-openai.api_key = "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"
+openai.api_key = os.environ.get('OPENAIKEY')
 
 def BasicGeneration(userPrompt):
     completion = openai.ChatCompletion.create(
