@@ -4,9 +4,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 from urllib.parse import urlparse, parse_qs
 
-openai.api_key = "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" 
+openai.api_key = st.secrets["OPENAIKEY"]
 
-# st.secrets["OPENAIKEY"]
 
 def extract_video_id(link):
     """
