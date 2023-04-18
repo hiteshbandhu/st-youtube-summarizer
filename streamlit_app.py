@@ -3,6 +3,7 @@ import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 from urllib.parse import urlparse, parse_qs
+import os
 
 openai.api_key = st.secrets["OPENAIKEY"]
 
