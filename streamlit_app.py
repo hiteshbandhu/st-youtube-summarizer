@@ -11,6 +11,18 @@ st.set_page_config(page_title="CapSum")
 openai.api_key = st.secrets["OPENAIKEY"]
 
 
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.image("", width=200)
+
+with col3:
+    st.write(' ')
+
+
 def extract_video_id(link):
     """
     Extract the video id from a YouTube video link.
