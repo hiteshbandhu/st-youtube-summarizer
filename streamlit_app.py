@@ -5,6 +5,9 @@ from youtube_transcript_api.formatters import TextFormatter
 from urllib.parse import urlparse, parse_qs
 import os
 
+
+st.set_page_config(page_title="CapSum")
+
 openai.api_key = st.secrets["OPENAIKEY"]
 
 
