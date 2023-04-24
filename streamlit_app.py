@@ -17,7 +17,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("", width=200)
+    st.image("https://github.com/hiteshbandhu/st-youtube-summarizer/blob/main/img.png?raw=true", width=200)
 
 with col3:
     st.write(' ')
