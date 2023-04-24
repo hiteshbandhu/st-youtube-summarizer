@@ -54,7 +54,7 @@ def GetSubtitles(video_id):
 
 st.title('Youtube Summary Generator')
 st.subheader(
-    'Summarize any video with captions. Works well on videos having length ~10 mins')
+    'Summarize any video with captions. English, then better. Works well on videos having length ~14 mins')
 
 video_link = st.text_area("Enter Youtube Link 😁")
 
